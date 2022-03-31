@@ -1,0 +1,12 @@
+Hệ sinh thái STM32 Cube (STM32Cube Ecosystem) là tập hợp các phần mềm, công cụ, gói dữ liệu nhúng nhằm đáp ứng cho việc phát triển các ứng dụng nhúng trên chi STM32. STM32Cube mang tất cả các công cụ và các phần mềm nhúng tới cho người dùng STM32 một cách tích hợp và đơn giản. Hãng ST đưa ra một giải pháp thân thiện hơn với các doanh nghiệp: Miễn phí bản quyền, tăng tốc độ develope, giảm giá thành R&D, tối ưu được lợi nhuận
+
+Bộ công cụ của STM32 dựa trên 4 bước cơ bản cấu thành 1 dự án nhúng đó là:
+
++ Configuration với STM32 CubeMX: Bước cấu hình, chọn cho dự án dòng chip đáp ứng được nhu cầu, sau đó cài đặt ban đầu cho các ngoại vi của chip đó. Được trang bị Graphic UI khiến lập trình viên có thể config các ngoại vi hoạt động mà không cần sử dụng code, tăng hiệu xuất làm việc
++ Developement với STM32 CubeIDE: Bước phát triển hay việt nam hay gọi là lập trình. Ccũng giống như những IDE (Integrated Development Environment) khác như Keil C, True Studio, Eclipse… STM32 CubeIDE cung cấp cho chúng ta một môi trường lập trình tích hợp, đầy đủ các công cụ để lập trình và phát triển phần mềm nhúng
++ Programing với STM32 CubeProg: Nạp chương trình thông qua nhiều chuẩn như SW, UART, OTA, USB. Thông thường chúng ta sẽ không sử dụng phần mềm này vì IDE đã tích hợp tính năng nạp SW (Serial Wire) sử dụng ST – Link và J – link.  Ngoài ra còn có thể đọc, ghi và xác minh các thiết bị và bộ nhớ ngoài thông qua nhiều chuẩn giao thức truyền thông có sẵn như JTAG, SWD, UART, USB DFU, I2C, SPI, CAN
++ Monitor với STM32 CubeMonitor: Cũng như tên gọi STM32 CubeMonitor giúp chúng ta giám sát ứng dụng đang chạy với nhiều màn hình, hiển thị nhiều thành phần khác nhau trong mạch nhúng
+
+Các gói phần mềm hỗ trợ lập trình nhúng (Package) của hệ sinh thái STM32 Cube: 
++ STM32Cube MCU và MPU Packages: Hỗ trợ xây dựng các driver dựa trên thư viện HAL (Hardware Abstraction Layer) cho từng dòng chip. Hỗ trợ các Middle ware được config tương thích với dòng chip đó. Các gói package này có thể được cài tự động hoặc cài bằng tay bởi các phần mềm bên trên.
++ STM32Cube Expansion Packages, dành cho các giải pháp ứng dụng. Đây là các package mở rộng của STM32Cube MCU nhằm cung cấp thêm các thành phần phần mềm nhúng, các package này có thể được thiết kế bởi hãng ST hoặc các đối tác của họ để tạo ra thêm các phần mềm nhúng cho dòng vi điều khiển STM32 để gia tăng sự tiện nghi khi lựa chọn sử dụng dòng vi điều điều STM32.

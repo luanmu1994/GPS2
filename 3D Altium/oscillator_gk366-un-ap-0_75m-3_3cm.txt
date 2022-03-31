@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"GK366-UN-AP-0.75M-3.3CM";"";
+"TraceParts.PartVersion";"1.1.1";"";
+"SUPPLIER";"METEOR";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartTitle";"Crystal Oscillator GK366-UN 0.75-800 MHz";"";
+"TEMPERATURE_RANGE";"-10 ... 60 °C";"";
+"TraceParts.PartNumber";"33-07052021-096825";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Crystal Oscillator, Frequency: 0.75 MHz, GK366-UN-AP-0.75M-3.3CM";"";
+"TraceParts.InstanceId";"33-07052021-0968256PT2LB1EUJENU6ZYHGS6E8RHP";"";
+"FREQUENCY";"0,75 MHz";"";
+"TraceParts.PartStatusId";"";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"VOLTAGE";"3.3 ±10% V";"";
+"TraceParts.ClassPath";"/F_METEOR/METEOR.030/";"";
